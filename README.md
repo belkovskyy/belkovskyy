@@ -10,7 +10,7 @@ ML Engineer. Табличный ML, LLM и RAG-системы, продакше�
 | [text2sql-guardrails](https://github.com/belkovskyy/text2sql-guardrails) | Запросы к PostgreSQL на естественном языке, SQL проверяется перед выполнением | 26 из 26 атак заблокировано против 20 из 26 у регулярных выражений | sqlparse, Ollama |
 | [ltv-prediction](https://github.com/belkovskyy/ltv-prediction) | Прогноз GMV пользователя на 30 дней с временной валидацией | RMSLE 1.69 против 3.20 у базлайна | LightGBM, polars |
 | [apparel-recsys](https://github.com/belkovskyy/apparel-recsys) | Рекомендации следующей покупки: история покупок и популярность | NDCG@100 0.0128 против 0.0067 у популярного | polars |
-| [moex-trading-agent](https://github.com/belkovskyy/moex-trading-agent) | Торговый агент для MOEX: ML-фильтр, независимый риск-слой, walk-forward валидация | декомпозиция результата на транзакционные издержки и edge | LightGBM, LLM |
+| [moex-trading-agent](https://github.com/belkovskyy/moex-trading-agent) | Торговый агент для MOEX: ML-фильтр, независимый риск-слой, walk-forward валидация | +4.02%, Sharpe 0.99, просадка 2.2% на бэктесте 2023-2026; исходная конфигурация давала −38% | LightGBM, LLM |
 | [ldpc-rate-adaptation](https://github.com/belkovskyy/ldpc-rate-adaptation) | Адаптация скорости LDPC-кода для квантового распределения ключей | квантильная регрессия QBER и политика выбора кода | LightGBM, Optuna |
 | [mws-octapi-lua-agent](https://github.com/belkovskyy/mws-octapi-lua-agent) | Генерация Lua-кода локальной LLM с валидацией и автоисправлением | покрыт тестами | FastAPI, Ollama, Docker |
 | [ML_projects](https://github.com/belkovskyy/ML_projects) | Учебные проекты: EDA, A/B-тесты, классический ML, NLP, CV | — | scikit-learn, PyTorch |
